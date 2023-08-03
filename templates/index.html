@@ -6,11 +6,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.2.0/socket.io.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <style>
-                /* 美化聊天訊息框 */
         #messages {
           height: 500px;
           max-width: 600px;
-          margin: 0 auto; /* 將元素水平置中 */
+          margin: 0 auto; 
           border: 1px solid #ccc;
           border-radius: 8px;
           padding: 10px;
@@ -46,8 +45,8 @@
           background-color: #0056b3;
         }
         body {
-          background-color: #000000; /* 將背景顏色設定為黑色 */
-          color: #000000; /* 將文字顏色設定為白色，以便與黑色背景對比 */
+          background-color: #333333;
+          color: #000000; 
         #sendBtn{
             padding: 12.5px 30px;
             border: 0;
@@ -92,7 +91,6 @@
     })
 </script>
 <div id="messages"></div>
-<!-- 使用 text-align: center; 將輸入框水平置中 -->
 <div id="inputWrapper">
     <input type="text" id="username" placeholder="Username">
     <input type="text" id="message" placeholder="Message">
